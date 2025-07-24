@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        /* Basic styling for better presentation */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        section {
+            display: inline-block; /* Allows sections to sit side-by-side */
+            margin: 15px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        }
+        section img {
+            max-width: 200px; /* Ensures images are properly sized */
+            height: auto;
+            display: block; /* Removes extra space below image */
+            margin-bottom: 10px;
+        }
+        section a {
+            display: block; /* Makes the link take full width */
+            text-decoration: none;
+ color: #007bff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Small Image Gallery</h1>
+
+    <section>
+        <img src="https://via.placeholder.com/200x150/FF5733/FFFFFF?text=Image+1" alt="A vibrant abstract painting with red and orange hues.">
+        <a href="https://en.wikipedia.org/wiki/Abstract_art" target="_blank">Learn about Abstract Art</a>
+    </section>
+
+    <section>
+        <img src="https://via.placeholder.com/200x150/33FF57/FFFFFF?text=Image+2" alt="A serene landscape featuring green hills and a clear blue sky.">
+        <a href="https://en.wikipedia.org/wiki/Landscape_photography" target="_blank">Explore Landscape Photography</a>
+    </section>
+
+    <section>
+        <img src="https://via.placeholder.com/200x150/3357FF/FFFFFF?text=Image+3" alt="A close-up of a blue flower with dew drops on its petals.">
+        <a href="https://en.wikipedia.org/wiki/Flower" target="_blank">Discover More About Flowers</a>
+    </section>
+
+ </body>
+</html>
+
+
